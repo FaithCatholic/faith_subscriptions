@@ -1,6 +1,6 @@
 {
     "name": "faithcatholic/faith_subscriptions",
-    "description": "The Faith Subscriptions theme is a custom theme that originated as a copy of the Drupal core Stark theme.",
+    "description": "The Faith Subscriptions theme is a custom theme that is based on the Drupal core Stark theme.",
     "type": "project",
     "authors": [
         {
