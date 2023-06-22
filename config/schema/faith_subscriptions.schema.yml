@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Faith Subscriptions theme.
+
+faith_subscriptions.settings:
+  type: theme_settings
+  label: 'Faith Subscriptions settings'

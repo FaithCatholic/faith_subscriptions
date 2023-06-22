@@ -1,0 +1,10 @@
+# Hidden files
+.DS_Store
+Thumbs.db
+
+# Vendor packages
+node_modules
+vendor
+
+# Caches
+.sass-cache

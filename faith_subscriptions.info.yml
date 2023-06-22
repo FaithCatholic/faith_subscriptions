@@ -1,0 +1,9 @@
+name: Faith Subscriptions
+type: theme
+core_version_requirement: ^9.4 || ^10
+description: 'The Faith Subscriptions theme is a custom theme that originated as a copy of the Drupal core Stark theme.'
+package: Faith
+version: '1.0'
+project: 'faith_subscriptions'
+base theme: false
+starterkit: false
