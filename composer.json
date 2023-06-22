@@ -2,6 +2,7 @@
     "name": "faithcatholic/faith_subscriptions",
     "description": "The Faith Subscriptions theme is a custom theme that is based on the core Stark theme.",
     "type": "drupal-theme",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Nicholas Ketchum",
