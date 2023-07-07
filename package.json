@@ -1,0 +1,47 @@
+{
+  "name": "faith_subscriptions",
+  "version": "1.0.0",
+  "description": "Packages for the Faith Subscription theme",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-header-comment": "^1.0.3",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.44.0",
+    "sass": "^1.63.6",
+    "sass-lint": "^1.13.1",
+    "stylelint-config-twbs-bootstrap": "^11.0.0"
+  },
+  "scripts": {
+    "lint:sass": "sass-lint -c .sass-lint.yml --verbose",
+    "build:sass": "sass scss/style.scss css/style.css && sass scss/ck5style.scss css/ck5style.css",
+    "build:js": "cross-env BABEL_ENV=legacy node ./bin/babel/babel-es6-build.js",
+    "lint:js": "eslint --no-eslintrc -c=./.eslintrc.json js/**.es6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaithCatholic/faith_subscriptions.git"
+  },
+  "author": "Faith Catholic",
+  "license": "ISC",
+  "homepage": "https://github.com/FaithCatholic/faith_subscriptions#readme",
+  "babel": {
+    "env": {
+      "legacy": {
+        "presets": [
+          [
+            "env",
+            {
+              "modules": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

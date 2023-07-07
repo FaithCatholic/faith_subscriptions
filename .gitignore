@@ -8,3 +8,6 @@ vendor
 
 # Caches
 .sass-cache
+
+# Compiled data
+css
